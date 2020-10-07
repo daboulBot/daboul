@@ -71,7 +71,7 @@ Rundaboul:write([[
 cd $HOME/daboul
 token="]]..database:get(Server_daboul.."Token_daboul")..[["
 rm -fr daboul.lua
-wget "https://raw.githubusercontent.com/daboulBot/daboul/main/daboul.lua"
+wget "https://raw.githubusercontent.com/daboulBot/daboul/main/start.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./daboul.lua -p PROFILE --bot=$token
