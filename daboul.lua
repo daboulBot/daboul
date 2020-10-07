@@ -5721,8 +5721,8 @@ if text == ("تحديث السورس") and Devdaboul(msg) then
 send(msg.chat_id_,msg.id_,'☑┇تم التحديث')
 os.execute('rm -rf daboul.lua')
 os.execute('rm -rf start.lua')
-download_to_file('https://raw.githubusercontent.com/daboulab/daboul/master/daboul.lua', 'daboul.lua') 
-download_to_file('https://raw.githubusercontent.com/daboulab/daboul/master/start.lua', 'start.lua') 
+download_to_file('https://raw.githubusercontent.com/daboulBot/daboul/main/daboul.lua', 'daboul.lua') 
+download_to_file('https://raw.githubusercontent.com/daboulBot/daboul/main/start.lua', 'start.lua') 
 dofile('daboul.lua')  
 return false
 end
@@ -6775,8 +6775,8 @@ if text == "تحديث السورس 📥" then
 send(msg.chat_id_,msg.id_,'☑┇تم التحديث')
 os.execute('rm -rf daboul.lua')
 os.execute('rm -rf start.lua')
-download_to_file('https://raw.githubusercontent.com/daboulab/daboul/master/daboul.lua', 'daboul.lua') 
-download_to_file('https://raw.githubusercontent.com/daboulab/daboul/master/start.lua', 'start.lua') 
+download_to_file('https://raw.githubusercontent.com/daboulBot/daboul/main/daboul.lua', 'daboul.lua') 
+download_to_file('https://raw.githubusercontent.com/daboulBot/daboul/main/start.lua', 'start.lua') 
 dofile('daboul.lua')  
 return false
 end
