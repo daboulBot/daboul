@@ -12,7 +12,6 @@ token = "]]..Token..[["
 
 Sudo = ]]..Sudo..[[  
 
-UserName = "]]..UserName..[["
 ]])
 daboul_Info_Sudo:close()
 end  
@@ -34,31 +33,14 @@ os.execute('lua start.lua')
 end
 ------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------
-if not database:get(Server_daboul.."UserName_Tshake") then
-print("\27[1;34m\n»» Send Your UserName Sudo : \27[m")
+if not database:get(Server_daboul.."Id_daboul") then
+print("\27[1;34m\n»» Send Your id Sudo : \27[m")
 local UserName = io.read():gsub('@','')
 if UserName ~= '' then
-local Get_Info = http.request("http://Tshake.ml/info/?user="..UserName)
-if Get_Info:match('Is_Spam') then
-io.write('\n\27[1;31m»» Sorry The server is Spsm \nتم حظر السيرفر لمدة 5 دقايق بسبب التكرار\n\27[0;39;49m')
-return false
-end
-local Json = JSON:decode(Get_Info)
-if Json.Info == false then
-io.write('\n\27[1;31m»» Sorry The UserName is not Correct \n\27[0;39;49m')
-os.execute('lua start.lua')
+io.write('\n\27[1;31m»» The id Is Saved\n\27[0;39;49m')
+database:set(Server_daboul.."Id_daboul",UserName)
 else
-if Json.Info == 'Channel' then
-io.write('\n\27[1;31m»» Sorry The UserName Is Channel \n\27[0;39;49m')
-os.execute('lua start.lua')
-else
-io.write('\n\27[1;31m»» The UserNamr Is Saved\n\27[0;39;49m')
-database:set(Server_daboul.."UserName_Tshake",Json.Info.Username)
-database:set(Server_daboul.."Id_Tshake",Json.Info.Id)
-end
-end
-else
-io.write('\n\27[1;31mThe UserName was not Saved\n\27[0;39;49m')
+io.write('\n\27[1;31mThe id was not Saved\n\27[0;39;49m')
 end 
 os.execute('lua start.lua')
 end
@@ -69,7 +51,6 @@ Rundaboul:write([[
 #!/usr/bin/env bash
 cd $HOME/daboul
 token="]]..database:get(Server_daboul.."Token_daboul")..[["
-rm -fr daboul.lua
 wget "https://raw.githubusercontent.com/daboulBot/daboul/main/daboul.lua"
 while(true) do
 rm -fr ../.telegram-cli
@@ -77,7 +58,7 @@ rm -fr ../.telegram-cli
 done
 ]])
 Rundaboul:close()
-local RunTs = io.open("ts", 'w')
+local RunTs = io.open("tk", 'w')
 RunTs:write([[
 #!/usr/bin/env bash
 cd $HOME/daboul
@@ -92,7 +73,7 @@ end
 Files_daboul_Info()
 database:del(Server_daboul.."Token_daboul");database:del(Server_daboul.."Id_daboul");database:del(Server_daboul.."UserName_daboul")
 sudos = dofile('sudo.lua')
-os.execute('./install.sh ins')
+os.execute('./‏install.sh ins')
 end 
 local function Load_File()  
 local f = io.open("./sudo.lua", "r")  
@@ -103,7 +84,7 @@ else
 f:close()  
 database:del(Server_daboul.."Token_daboul");database:del(Server_daboul.."Id_daboul");database:del(Server_daboul.."UserName_daboul")
 sudos = dofile('sudo.lua')
-os.execute('./install.sh ins')
+os.execute('./‏install.sh ins')
 var = false
 end  
 return var
