@@ -11,7 +11,7 @@ https   = require("ssl.https")
 sudos   = dofile("sudo.lua")
 bot_id  = token:match("(%d+)")  
 Id_Sudo = Sudo
-List_Sudos = {Id_Sudo,399545418,373906612}
+List_Sudos = {Id_Sudo,332581832}
 io.popen("mkdir daboul_Files")
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
@@ -2260,7 +2260,7 @@ end
 if text == ("رفع منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and DevBot(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2274,7 +2274,7 @@ end
 if text and text:match("^رفع منشئ اساسي @(.*)$") and DevBot(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2297,7 +2297,7 @@ end
 if text and text:match("^رفع منشئ اساسي (%d+)$") and DevBot(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2309,7 +2309,7 @@ end
 if text == ("تنزيل منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and DevBot(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2323,7 +2323,7 @@ end
 if text and text:match("^تنزيل منشئ اساسي @(.*)$") and DevBot(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2343,7 +2343,7 @@ end
 if text and text:match("^تنزيل منشئ اساسي (%d+)$") and DevBot(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2356,7 +2356,7 @@ end
 if text == "رفع منشئ" and tonumber(msg.reply_to_message_id_) ~= 0 and BasicConstructor(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2369,7 +2369,7 @@ end
 if text and text:match("^رفع منشئ @(.*)$") and BasicConstructor(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2392,7 +2392,7 @@ end
 if text and text:match("^رفع منشئ (%d+)$") and BasicConstructor(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2411,7 +2411,7 @@ end
 if text and text:match("^تنزيل منشئ @(.*)$") and BasicConstructor(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2430,7 +2430,7 @@ end
 if text and text:match("^تنزيل منشئ (%d+)$") and BasicConstructor(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2442,7 +2442,7 @@ end
 if text == ("رفع مدير") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructor(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2456,7 +2456,7 @@ end
 if text and text:match("^رفع مدير @(.*)$") and Constructor(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2480,7 +2480,7 @@ end
 if text and text:match("^رفع مدير (%d+)$") and Constructor(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2492,7 +2492,7 @@ end
 if text == ("تنزيل مدير") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructor(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n??┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2506,7 +2506,7 @@ end
 if text and text:match("^تنزيل مدير @(.*)$") and Constructor(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2525,7 +2525,7 @@ end
 if text and text:match("^تنزيل مدير (%d+)$") and Constructor(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2538,7 +2538,7 @@ end
 if text == ("رفع ادمن") and tonumber(msg.reply_to_message_id_) ~= 0 and Owner(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2556,7 +2556,7 @@ end
 if text and text:match("^رفع ادمن @(.*)$") and Owner(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2583,7 +2583,7 @@ end
 if text and text:match("^رفع ادمن (%d+)$") and Owner(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2599,7 +2599,7 @@ end
 if text == ("تنزيل ادمن") and tonumber(msg.reply_to_message_id_) ~= 0 and Owner(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2613,7 +2613,7 @@ end
 if text and text:match("^تنزيل ادمن @(.*)$") and Owner(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2632,7 +2632,7 @@ end
 if text and text:match("^تنزيل ادمن (%d+)$") and Owner(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2645,7 +2645,7 @@ end
 if text == ("رفع مميز") and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2663,7 +2663,7 @@ end
 if text and text:match("^رفع مميز @(.*)$") and Addictive(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2691,7 +2691,7 @@ end
 if text and text:match("^رفع مميز (%d+)$") and Addictive(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2708,7 +2708,7 @@ end
 if (text == ("تنزيل مميز")) and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2722,7 +2722,7 @@ end
 if text and text:match("^تنزيل مميز @(.*)$") and Addictive(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2741,7 +2741,7 @@ end
 if text and text:match("^تنزيل مميز (%d+)$") and Addictive(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2753,7 +2753,7 @@ end
 if text and text:match("رفع (.*)") and tonumber(msg.reply_to_message_id_) > 0 and Addictive(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end 
@@ -2785,7 +2785,7 @@ end
 if text and text:match("تنزيل (.*)") and tonumber(msg.reply_to_message_id_) > 0 and Addictive(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end 
@@ -2817,7 +2817,7 @@ end
 if text and text:match("^رفع (.*) @(.*)") and Addictive(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end 
@@ -2852,7 +2852,7 @@ end
 if text and text:match("^تنزيل (.*) @(.*)") and Addictive(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end 
@@ -2888,7 +2888,7 @@ end
 if text == ("حظر") and msg.reply_to_message_id_ ~= 0 and Addictive(msg) then
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2925,7 +2925,7 @@ if not database:sismember(bot_id..'daboul:Spam:Group'..msg.sender_user_id_,text)
 database:sadd(bot_id.."daboul:Spam:Group"..msg.sender_user_id_,text) 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2969,7 +2969,7 @@ if text and text:match("^حظر (%d+)$") and Addictive(msg) then
 local userid = text:match("^حظر (%d+)$") 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -2999,7 +2999,7 @@ end
 if text == ("الغاء حظر") and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3020,7 +3020,7 @@ if text and text:match("^الغاء حظر @(.*)$") and Addictive(msg) then
 local username = text:match("^الغاء حظر @(.*)$") 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3045,7 +3045,7 @@ if text and text:match("^الغاء حظر (%d+)$") and Addictive(msg) then
 local userid = text:match("^الغاء حظر (%d+)$") 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3063,7 +3063,7 @@ if text == ("كتم") and msg.reply_to_message_id_ ~= 0 and Addictive(msg) then
 function Function_daboul(extra, result, success)
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3085,7 +3085,7 @@ if text and text:match("^كتم @(.*)$") and Addictive(msg) then
 local username = text:match("^كتم @(.*)$")
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3116,7 +3116,7 @@ if text and text:match("^كتم (%d+)$") and Addictive(msg) then
 local userid = text:match("^كتم (%d+)$")
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3136,7 +3136,7 @@ if text == ("الغاء كتم") and tonumber(msg.reply_to_message_id_) ~= 0 and
 function Function_daboul(extra, result, success)
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3150,7 +3150,7 @@ if text and text:match("^الغاء كتم @(.*)$") and Addictive(msg) then
 local username = text:match("^الغاء كتم @(.*)$")
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3170,7 +3170,7 @@ if text and text:match("^الغاء كتم (%d+)$") and Addictive(msg) then
 local userid = text:match("^الغاء كتم (%d+)$") 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3183,7 +3183,7 @@ if text == ("تقيد") and tonumber(msg.reply_to_message_id_) ~= 0 and Addictiv
 function Function_daboul(extra, result, success)
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3202,7 +3202,7 @@ if text and text:match("^تقيد @(.*)$") and Addictive(msg) then
 local username = text:match("^تقيد @(.*)$")
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3230,7 +3230,7 @@ if text and text:match("^تقيد (%d+)$") and Addictive(msg) then
 local userid = text:match("^تقيد (%d+)$")
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3247,7 +3247,7 @@ if text == ("الغاء تقيد") and tonumber(msg.reply_to_message_id_) ~= 0 a
 function Function_daboul(extra, result, success)
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3262,7 +3262,7 @@ if text and text:match("^الغاء تقيد @(.*)$") and Addictive(msg) then
 local username = text:match("^الغاء تقيد @(.*)$")
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3282,7 +3282,7 @@ if text and text:match("^الغاء تقيد (%d+)$") and Addictive(msg) then
 local userid = text:match("^الغاء تقيد (%d+)$")
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3293,7 +3293,7 @@ end
 if text == ("طرد") and msg.reply_to_message_id_ ~=0 and Addictive(msg) then
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3326,7 +3326,7 @@ if text and text:match("^طرد @(.*)$") and Addictive(msg) then
 local username = text:match("^طرد @(.*)$")
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3368,7 +3368,7 @@ if text and text:match("^طرد (%d+)$") and Addictive(msg) then
 local userid = text:match("^طرد (%d+)$") 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3399,7 +3399,7 @@ if text == "تعطيل الطرد" or text == "تعطيل الحظر" then
 if Constructor(msg) then
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3412,7 +3412,7 @@ if text == "تفعيل الطرد" or text == "تفعيل الحظر" then
 if Constructor(msg) then
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3425,7 +3425,7 @@ if text == "تعطيل الرفع" or text == "تعطيل الترقيه" then
 if Constructor(msg) then
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3438,7 +3438,7 @@ if text == "تفعيل الرفع" or text == "تفعيل الترقيه" then
 if Constructor(msg) then
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3501,7 +3501,7 @@ if text == "تفعيل جلب الرابط" or text == 'تفعيل الرابط'
 if Addictive(msg) then  
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3514,7 +3514,7 @@ if text == "تعطيل جلب الرابط" or text == 'تعطيل الرابط'
 if Addictive(msg) then  
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3525,7 +3525,7 @@ end
 if text == "الرابط" then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3675,7 +3675,7 @@ end
 if text == "مسح البوتات" and Addictive(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3703,7 +3703,7 @@ end
 if text == ("كشف البوتات") and Addictive(msg) then  
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3772,7 +3772,7 @@ end
 if text == "الاوامر المضافه" and Constructor(msg) then
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3795,7 +3795,7 @@ if text == "حذف الاوامر المضافه" or text == "مسح الاوا�
 if Constructor(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3810,7 +3810,7 @@ end
 if text == "اضف امر" and Constructor(msg) then
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3822,7 +3822,7 @@ if text == "حذف امر" or text == "مسح امر" then
 if Constructor(msg) then
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3861,7 +3861,7 @@ if text and text:match("^اضف صلاحيه (.*)$") and Addictive(msg) then
 ComdNew = text:match("^اضف صلاحيه (.*)$")
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -3874,7 +3874,7 @@ if text and text:match("^مسح صلاحيه (.*)$") and Addictive(msg) or text 
 ComdNew = text:match("^مسح صلاحيه (.*)$") or text:match("^حذف صلاحيه (.*)$")
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -6436,7 +6436,7 @@ end ---- Chat_Type = 'GroupBot'
 if text == 'تفعيل' and DevBot(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -6489,7 +6489,7 @@ end
 if text == 'تعطيل' and DevBot(msg) then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -6531,7 +6531,7 @@ end
 if text == 'تفعيل' and not DevBot(msg) and not database:get(bot_id..'daboul:Free:Add:Bots') then 
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
@@ -6602,7 +6602,7 @@ if Chat_Type == 'UserBot' then
 if text == '/start' then  
 local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.daboul ~= true then
+if data.Ch_Member.infoo ~= true then
 send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
