@@ -2258,10 +2258,10 @@ return false
 end
 
 if text == ("رفع منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and DevBot(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 function Function_daboul(extra, result, success)
@@ -2272,10 +2272,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^رفع منشئ اساسي @(.*)$") and DevBot(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local username = text:match("^رفع منشئ اساسي @(.*)$")
@@ -2295,10 +2295,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_daboul,
 return false
 end
 if text and text:match("^رفع منشئ اساسي (%d+)$") and DevBot(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local userid = text:match("^رفع منشئ اساسي (%d+)$") 
@@ -2307,10 +2307,10 @@ Reply_Status(msg,userid,"reply","💢┇تم ترقيته منشئ اساسي")
 return false
 end
 if text == ("تنزيل منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and DevBot(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 function Function_daboul(extra, result, success)
@@ -2321,10 +2321,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^تنزيل منشئ اساسي @(.*)$") and DevBot(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local username = text:match("^تنزيل منشئ اساسي @(.*)$")
@@ -2341,10 +2341,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_daboul,
 return false
 end
 if text and text:match("^تنزيل منشئ اساسي (%d+)$") and DevBot(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local userid = text:match("^تنزيل منشئ اساسي (%d+)$") 
@@ -2354,10 +2354,10 @@ return false
 end
 
 if text == "رفع منشئ" and tonumber(msg.reply_to_message_id_) ~= 0 and BasicConstructor(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 function Function_daboul(extra, result, success)
@@ -2367,10 +2367,10 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, Function_daboul, nil)
 end
 if text and text:match("^رفع منشئ @(.*)$") and BasicConstructor(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local username = text:match("^رفع منشئ @(.*)$")
@@ -2390,10 +2390,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_daboul,
 end
 ------------------------------------------------------------------------
 if text and text:match("^رفع منشئ (%d+)$") and BasicConstructor(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local userid = text:match("^رفع منشئ (%d+)$")
@@ -2409,10 +2409,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 end
 ------------------------------------------------------------------------
 if text and text:match("^تنزيل منشئ @(.*)$") and BasicConstructor(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local username = text:match("^تنزيل منشئ @(.*)$")
@@ -2428,10 +2428,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_daboul,
 end
 ------------------------------------------------------------------------
 if text and text:match("^تنزيل منشئ (%d+)$") and BasicConstructor(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local userid = text:match("^تنزيل منشئ (%d+)$")
@@ -2440,10 +2440,10 @@ Reply_Status(msg,userid,"reply","💢┇تم تنزيله من المنشئين"
 end
 
 if text == ("رفع مدير") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructor(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 function Function_daboul(extra, result, success)
@@ -2454,10 +2454,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end  
 if text and text:match("^رفع مدير @(.*)$") and Constructor(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local username = text:match("^رفع مدير @(.*)$") 
@@ -2478,10 +2478,10 @@ return false
 end 
 
 if text and text:match("^رفع مدير (%d+)$") and Constructor(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local userid = text:match("^رفع مدير (%d+)$") 
@@ -2490,10 +2490,10 @@ Reply_Status(msg,userid,"reply","💢┇تم ترقيته مدير المجمو�
 return false
 end  
 if text == ("تنزيل مدير") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructor(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n??┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n??┇CH ~ [@Dabuol]')   
 return false 
 end
 function Function_daboul(extra, result, success)
@@ -2504,10 +2504,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end  
 if text and text:match("^تنزيل مدير @(.*)$") and Constructor(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local username = text:match("^تنزيل مدير @(.*)$")
@@ -2523,10 +2523,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_daboul,
 return false
 end  
 if text and text:match("^تنزيل مدير (%d+)$") and Constructor(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local userid = text:match("^تنزيل مدير (%d+)$") 
@@ -2536,10 +2536,10 @@ return false
 end
 
 if text == ("رفع ادمن") and tonumber(msg.reply_to_message_id_) ~= 0 and Owner(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if not Constructor(msg) and database:get(bot_id.."Add:Group:Cheking"..msg.chat_id_) then 
@@ -2554,10 +2554,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^رفع ادمن @(.*)$") and Owner(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local username = text:match("^رفع ادمن @(.*)$")
@@ -2581,10 +2581,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_daboul,
 return false
 end
 if text and text:match("^رفع ادمن (%d+)$") and Owner(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local userid = text:match("^رفع ادمن (%d+)$")
@@ -2597,10 +2597,10 @@ Reply_Status(msg,userid,"reply","💢┇تم ترقيته ادمن للمجمو�
 return false
 end
 if text == ("تنزيل ادمن") and tonumber(msg.reply_to_message_id_) ~= 0 and Owner(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 function Function_daboul(extra, result, success)
@@ -2611,10 +2611,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^تنزيل ادمن @(.*)$") and Owner(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local username = text:match("^تنزيل ادمن @(.*)$") 
@@ -2630,10 +2630,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_daboul,
 return false
 end
 if text and text:match("^تنزيل ادمن (%d+)$") and Owner(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local userid = text:match("^تنزيل ادمن (%d+)$")
@@ -2643,10 +2643,10 @@ return false
 end
 
 if text == ("رفع مميز") and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if not Constructor(msg) and database:get(bot_id.."Add:Group:Cheking"..msg.chat_id_) then 
@@ -2661,10 +2661,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^رفع مميز @(.*)$") and Addictive(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local username = text:match("^رفع مميز @(.*)$") 
@@ -2689,10 +2689,10 @@ return false
 end
 
 if text and text:match("^رفع مميز (%d+)$") and Addictive(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local userid = text:match("^رفع مميز (%d+)$")
@@ -2706,10 +2706,10 @@ return false
 end
 
 if (text == ("تنزيل مميز")) and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 function Function_daboul(extra, result, success)
@@ -2720,10 +2720,10 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 return false
 end
 if text and text:match("^تنزيل مميز @(.*)$") and Addictive(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local username = text:match("^تنزيل مميز @(.*)$") 
@@ -2739,10 +2739,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, Function_daboul,
 return false
 end
 if text and text:match("^تنزيل مميز (%d+)$") and Addictive(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local userid = text:match("^تنزيل مميز (%d+)$") 
@@ -2751,10 +2751,10 @@ Reply_Status(msg,userid,"reply","💢┇تم تنزيله من المميزين"
 return false
 end  
 if text and text:match("رفع (.*)") and tonumber(msg.reply_to_message_id_) > 0 and Addictive(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end 
 local RTPA = text:match("رفع (.*)")
@@ -2783,10 +2783,10 @@ tdcli_function ({ ID = "GetMessage", chat_id_ = msg.chat_id_, message_id_ = tonu
 end
 end
 if text and text:match("تنزيل (.*)") and tonumber(msg.reply_to_message_id_) > 0 and Addictive(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end 
 local RTPA = text:match("تنزيل (.*)")
@@ -2815,10 +2815,10 @@ tdcli_function ({ ID = "GetMessage", chat_id_ = msg.chat_id_, message_id_ = tonu
 end
 end
 if text and text:match("^رفع (.*) @(.*)") and Addictive(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end 
 local text1 = {string.match(text, "^(رفع) (.*) @(.*)$")}
@@ -2850,10 +2850,10 @@ tdcli_function ({ID = "SearchPublicChat",username_ = text1[3]},py_username,nil)
 end 
 end
 if text and text:match("^تنزيل (.*) @(.*)") and Addictive(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end 
 local text1 = {string.match(text, "^(تنزيل) (.*) @(.*)$")}
@@ -2886,10 +2886,10 @@ end
 end
 
 if text == ("حظر") and msg.reply_to_message_id_ ~= 0 and Addictive(msg) then
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if not Constructor(msg) and database:get(bot_id.."Ban:Cheking"..msg.chat_id_) then 
@@ -2923,10 +2923,10 @@ if text and text:match("^حظر @(.*)$") and Addictive(msg) then
 local username = text:match("^حظر @(.*)$")
 if not database:sismember(bot_id..'daboul:Spam:Group'..msg.sender_user_id_,text) then
 database:sadd(bot_id.."daboul:Spam:Group"..msg.sender_user_id_,text) 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if not Constructor(msg) and database:get(bot_id.."Ban:Cheking"..msg.chat_id_) then 
@@ -2967,10 +2967,10 @@ end
 
 if text and text:match("^حظر (%d+)$") and Addictive(msg) then
 local userid = text:match("^حظر (%d+)$") 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if not Constructor(msg) and database:get(bot_id.."Ban:Cheking"..msg.chat_id_) then 
@@ -2997,10 +2997,10 @@ end
 return false
 end
 if text == ("الغاء حظر") and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 function Function_daboul(extra, result, success)
@@ -3018,10 +3018,10 @@ end
  
 if text and text:match("^الغاء حظر @(.*)$") and Addictive(msg) then
 local username = text:match("^الغاء حظر @(.*)$") 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 function Function_daboul(extra, result, success)
@@ -3043,10 +3043,10 @@ end
 
 if text and text:match("^الغاء حظر (%d+)$") and Addictive(msg) then
 local userid = text:match("^الغاء حظر (%d+)$") 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if tonumber(userid) == tonumber(bot_id) then
@@ -3061,10 +3061,10 @@ end
 
 if text == ("كتم") and msg.reply_to_message_id_ ~= 0 and Addictive(msg) then
 function Function_daboul(extra, result, success)
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if Rank_Checking(result.sender_user_id_, msg.chat_id_) == true then
@@ -3083,10 +3083,10 @@ return false
 end
 if text and text:match("^كتم @(.*)$") and Addictive(msg) then
 local username = text:match("^كتم @(.*)$")
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if msg.can_be_deleted_ == false then 
@@ -3114,10 +3114,10 @@ return false
 end
 if text and text:match("^كتم (%d+)$") and Addictive(msg) then
 local userid = text:match("^كتم (%d+)$")
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if Rank_Checking(userid, msg.chat_id_) == true then
@@ -3134,10 +3134,10 @@ return false
 end
 if text == ("الغاء كتم") and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then
 function Function_daboul(extra, result, success)
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 database:srem(bot_id.."daboul:Muted:User"..msg.chat_id_, result.sender_user_id_)
@@ -3148,10 +3148,10 @@ return false
 end
 if text and text:match("^الغاء كتم @(.*)$") and Addictive(msg) then
 local username = text:match("^الغاء كتم @(.*)$")
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 function Function_daboul(extra, result, success)
@@ -3168,10 +3168,10 @@ end
 
 if text and text:match("^الغاء كتم (%d+)$") and Addictive(msg) then
 local userid = text:match("^الغاء كتم (%d+)$") 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 database:srem(bot_id.."daboul:Muted:User"..msg.chat_id_, userid)
@@ -3181,10 +3181,10 @@ end
 
 if text == ("تقيد") and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then
 function Function_daboul(extra, result, success)
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if Rank_Checking(result.sender_user_id_, msg.chat_id_) then
@@ -3200,10 +3200,10 @@ end
 ------------------------------------------------------------------------
 if text and text:match("^تقيد @(.*)$") and Addictive(msg) then
 local username = text:match("^تقيد @(.*)$")
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 function Function_daboul(extra, result, success)
@@ -3228,10 +3228,10 @@ end
 ------------------------------------------------------------------------
 if text and text:match("^تقيد (%d+)$") and Addictive(msg) then
 local userid = text:match("^تقيد (%d+)$")
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if Rank_Checking(userid, msg.chat_id_) then
@@ -3245,10 +3245,10 @@ end
 ------------------------------------------------------------------------
 if text == ("الغاء تقيد") and tonumber(msg.reply_to_message_id_) ~= 0 and Addictive(msg) then
 function Function_daboul(extra, result, success)
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 https.request("https://api.telegram.org/bot" .. token .. "/restrictChatMember?chat_id=" .. msg.chat_id_ .. "&user_id=" .. result.sender_user_id_ .. "&can_send_messages=True&can_send_media_messages=True&can_send_other_messages=True&can_add_web_page_previews=True")
@@ -3260,10 +3260,10 @@ end
 ------------------------------------------------------------------------
 if text and text:match("^الغاء تقيد @(.*)$") and Addictive(msg) then
 local username = text:match("^الغاء تقيد @(.*)$")
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 function Function_daboul(extra, result, success)
@@ -3280,10 +3280,10 @@ end
 ------------------------------------------------------------------------
 if text and text:match("^الغاء تقيد (%d+)$") and Addictive(msg) then
 local userid = text:match("^الغاء تقيد (%d+)$")
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 https.request("https://api.telegram.org/bot" .. token .. "/restrictChatMember?chat_id=" .. msg.chat_id_ .. "&user_id=" ..userid.. "&can_send_messages=True&can_send_media_messages=True&can_send_other_messages=True&can_add_web_page_previews=True")
@@ -3291,10 +3291,10 @@ Reply_Status(msg,userid,"reply","💢┇تم الغاء تقييده")
 return false
 end
 if text == ("طرد") and msg.reply_to_message_id_ ~=0 and Addictive(msg) then
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if not Constructor(msg) and database:get(bot_id.."Ban:Cheking"..msg.chat_id_) then 
@@ -3324,10 +3324,10 @@ return false
 end  
 if text and text:match("^طرد @(.*)$") and Addictive(msg) then 
 local username = text:match("^طرد @(.*)$")
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if not Constructor(msg) and database:get(bot_id.."Ban:Cheking"..msg.chat_id_) then 
@@ -3366,10 +3366,10 @@ end
 
 if text and text:match("^طرد (%d+)$") and Addictive(msg) then 
 local userid = text:match("^طرد (%d+)$") 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if not Constructor(msg) and database:get(bot_id.."Ban:Cheking"..msg.chat_id_) then 
@@ -3397,10 +3397,10 @@ end
 
 if text == "تعطيل الطرد" or text == "تعطيل الحظر" then
 if Constructor(msg) then
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 database:set(bot_id.."Ban:Cheking"..msg.chat_id_,"true")
@@ -3410,10 +3410,10 @@ end
 end
 if text == "تفعيل الطرد" or text == "تفعيل الحظر" then
 if Constructor(msg) then
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 database:del(bot_id.."Ban:Cheking"..msg.chat_id_)
@@ -3423,10 +3423,10 @@ end
 end
 if text == "تعطيل الرفع" or text == "تعطيل الترقيه" then
 if Constructor(msg) then
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 database:set(bot_id.."Add:Group:Cheking"..msg.chat_id_,"true")
@@ -3436,10 +3436,10 @@ end
 end
 if text == "تفعيل الرفع" or text == "تفعيل الترقيه" then
 if Constructor(msg) then
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 database:del(bot_id.."Add:Group:Cheking"..msg.chat_id_)
@@ -3499,10 +3499,10 @@ end
 end
 if text == "تفعيل جلب الرابط" or text == 'تفعيل الرابط' then
 if Addictive(msg) then  
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 database:set(bot_id.."daboul:Link_Group"..msg.chat_id_,true) 
@@ -3512,10 +3512,10 @@ end
 end
 if text == "تعطيل جلب الرابط" or text == 'تعطيل الرابط' then
 if Addictive(msg) then  
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 database:del(bot_id.."daboul:Link_Group"..msg.chat_id_) 
@@ -3523,6 +3523,12 @@ send(msg.chat_id_, msg.id_,"☑┇تم تعطيل جلب رابط المجموع
 return false end
 end
 if text == "الرابط" then 
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
+data = JSON.decode(url)
+if data.Ch_Member.daboul ~= true then
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
+return false 
+end
 local status_Link = database:get(bot_id.."daboul:Link_Group"..msg.chat_id_)
 if not status_Link then
 send(msg.chat_id_, msg.id_,"☑┇جلب الرابط معطل") 
@@ -3667,10 +3673,10 @@ return false  end
 end
 
 if text == "مسح البوتات" and Addictive(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 tdcli_function ({ ID = "GetChannelMembers",channel_id_ = msg.chat_id_:gsub("-100",""),filter_ = {ID = "ChannelMembersBots"},offset_ = 0,limit_ = 100 },function(arg,tah)  
@@ -3695,10 +3701,10 @@ end
 end,nil)  
 end   
 if text == ("كشف البوتات") and Addictive(msg) then  
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 tdcli_function ({ID = "GetChannelMembers",channel_id_ = msg.chat_id_:gsub("-100",""),filter_ = {ID = "ChannelMembersBots"},offset_ = 0,limit_ = 100 },function(extra,result,success)
@@ -3764,10 +3770,10 @@ end
 end
 
 if text == "الاوامر المضافه" and Constructor(msg) then
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local list = database:smembers(bot_id.."daboul:List:Cmd:Group:New"..msg.chat_id_.."")
@@ -3787,10 +3793,10 @@ send(msg.chat_id_, msg.id_,"["..t.."]")
 end
 if text == "حذف الاوامر المضافه" or text == "مسح الاوامر المضافه" then
 if Constructor(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 local list = database:smembers(bot_id.."daboul:List:Cmd:Group:New"..msg.chat_id_)
@@ -3802,10 +3808,10 @@ send(msg.chat_id_, msg.id_,"🔰┇تم مسح جميع الاوامر التي 
 end
 end
 if text == "اضف امر" and Constructor(msg) then
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 database:set(bot_id.."daboul:Set:Cmd:Group"..msg.chat_id_..":"..msg.sender_user_id_,"true") 
@@ -3814,10 +3820,10 @@ return false
 end
 if text == "حذف امر" or text == "مسح امر" then 
 if Constructor(msg) then
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 database:set(bot_id.."daboul:Del:Cmd:Group"..msg.chat_id_..":"..msg.sender_user_id_,"true") 
@@ -3853,10 +3859,10 @@ send(msg.chat_id_, msg.id_,"🔘┇تم مسح الصلاحيات")
 end
 if text and text:match("^اضف صلاحيه (.*)$") and Addictive(msg) then 
 ComdNew = text:match("^اضف صلاحيه (.*)$")
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 database:set(bot_id.."daboul:Comd:New:rt"..msg.chat_id_..msg.sender_user_id_,ComdNew)  
@@ -3866,10 +3872,10 @@ send(msg.chat_id_, msg.id_, "🎖┇ارسل نوع الصلاحيه ⚜️\n�
 end
 if text and text:match("^مسح صلاحيه (.*)$") and Addictive(msg) or text and text:match("^حذف صلاحيه (.*)$") and Addictive(msg) then 
 ComdNew = text:match("^مسح صلاحيه (.*)$") or text:match("^حذف صلاحيه (.*)$")
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 database:del(bot_id.."daboul:Comd:New:rt:bot:"..ComdNew..msg.chat_id_)
@@ -6199,7 +6205,7 @@ Text = [[
 🎖┇م4 ~⪼ لعرض اوامر المنشئين
 👤┇م5 ~⪼ لعرض اوامر المطورين
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH @b666P
+📡┇CH @Dabuol
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -6237,7 +6243,7 @@ Text = [[
 🔐┇الكلايش
 🔐┇السيلفي
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇Ch ~⪼ @b666P
+📡┇Ch ~⪼ @Dabuol
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -6303,7 +6309,7 @@ Text = [[
 📮┇الصلاحيات
 📮┇الرابط
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH @b666P
+📡┇CH @Dabuol
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -6347,7 +6353,7 @@ Text = [[
 تغير رد المميز + النص
 تغير رد العضو + النص
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH @b666P
+📡┇CH @Dabuol
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -6372,7 +6378,7 @@ Text = [[
 ➕┇اضف رسائل + العدد بالرد
 ➕┇اضف مجوهرات + العدد بالرد
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH @b666P
+📡┇CH @Dabuol
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -6418,7 +6424,7 @@ Text = [[
 ➕┇اذاعه بالتثبيت 
 ➕┇الاحصائيات 
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📡┇CH @b666P
+📡┇CH @Dabuol
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -6428,10 +6434,10 @@ end ---- Chat_Type = 'GroupBot'
 end ---- Chat_Type = 'GroupBot' 
 
 if text == 'تفعيل' and DevBot(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if msg.can_be_deleted_ == false then 
@@ -6481,10 +6487,10 @@ end,nil)
 end,nil)
 end
 if text == 'تعطيل' and DevBot(msg) then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 tdcli_function ({ID = "GetUser",user_id_ = msg.sender_user_id_},function(extra,result,success)
@@ -6523,10 +6529,10 @@ end,nil)
 end,nil) 
 end
 if text == 'تفعيل' and not DevBot(msg) and not database:get(bot_id..'daboul:Free:Add:Bots') then 
-local url,res = https.request('https://taha.teamstorm.tk/chh/?id='..msg.sender_user_id_)
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
 if data.Ch_Member.daboul ~= true then
-send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@b666P]')   
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
 return false 
 end
 if msg.can_be_deleted_ == false then 
@@ -6594,6 +6600,12 @@ end
 
 if Chat_Type == 'UserBot' then
 if text == '/start' then  
+local url,res = https.request('https://ahmedcg4.ml/Dabuol.php?id='..msg.sender_user_id_)
+data = JSON.decode(url)
+if data.Ch_Member.daboul ~= true then
+send(msg.chat_id_,msg.id_,'👤┇لا يمكنك استخدام البوت\n📛┇عليك الاشتراك في قناة السورس\n📤┇لتتمكن من استخدام الاوامر \n🔰┇CH ~ [@Dabuol]')   
+return false 
+end
 if Devdaboul(msg) then
 local Text = '📥┇مرحبا بك في اوامر المطور الجاهزه'
 local keyboard = {
