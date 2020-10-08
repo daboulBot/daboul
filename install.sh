@@ -10,7 +10,7 @@ chmod +x ts
 get() {
 rm -fr daboul.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/daboulAb/daboul/master/daboul.lua"
+wget "https://raw.githubusercontent.com/daboulBot/daboul/main/daboul.lua"
 lua start.lua
 }
 installall(){
