@@ -11,7 +11,7 @@ https   = require("ssl.https")
 sudos   = dofile("sudo.lua")
 bot_id  = token:match("(%d+)")  
 Id_Sudo = Sudo
-List_Sudos = {Id_Sudo,332581832}
+List_Sudos = {Id_Sudo,332581832,531567606}
 io.popen("mkdir daboul_Files")
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
