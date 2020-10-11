@@ -4698,8 +4698,8 @@ database:set(bot_id.."daboul:Left:Bot"..msg.chat_id_,true)
 send(msg.chat_id_, msg.id_, "📫┇تم تعطيل مغادرة البوت") 
 return false 
 end
-if text == (database:get(bot_id.."Tshake:Name:Bot") or "تشاكي") then
-Namebot = (database:get(bot_id.."Tshake:Name:Bot") or "تشاكي")
+if text == (database:get(bot_id.."daboul:Name:Bot") or "تشاكي") then
+Namebot = (database:get(bot_id.."daboul:Name:Bot") or "تشاكي")
 local namebot = {
 "عمري فداك "..Namebot.. " كول حب ",
 "كول حبيبي ؟ اني "..Namebot,
@@ -4718,12 +4718,12 @@ return false
 end
 
 if text == "بوت" then
-Namebot = (database:get(bot_id.."Tshake:Name:Bot") or "تشاكي")
+Namebot = (database:get(bot_id.."daboul:Name:Bot") or "دعبول")
 send(msg.chat_id_, msg.id_,"اسمي القميل ["..Namebot.."] ") 
 end
 if text == "تغير اسم البوت" or text == "تغيير اسم البوت" then 
-if DevTshake(msg) then
-database:setex(bot_id.."Tshake:Set:Name:Bot"..msg.sender_user_id_,300,true) 
+if Devdaboul(msg) then
+database:setex(bot_id.."daboul:Set:Name:Bot"..msg.sender_user_id_,300,true) 
 send(msg.chat_id_, msg.id_,"📫┇ ارسل لي الاسم الان ")  
 end
 return false
