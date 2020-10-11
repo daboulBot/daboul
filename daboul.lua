@@ -4698,17 +4698,19 @@ database:set(bot_id.."daboul:Left:Bot"..msg.chat_id_,true)
 send(msg.chat_id_, msg.id_, "📫┇تم تعطيل مغادرة البوت") 
 return false 
 end
-
-if text == Namebot then
+if text == (database:get(bot_id.."Tshake:Name:Bot") or "تشاكي") then
+Namebot = (database:get(bot_id.."Tshake:Name:Bot") or "تشاكي")
 local namebot = {
-"لابسك لتلح",
-"ووياك ائمرني ؟",
-"عٍ ـيِنيِ",
-"عمري تفضل",
-"لاتوصخ اسمي",
-"هاقلبي؟ كول",
-"دعبل يمعود",
-"اهو شتريد ؟"
+"عمري فداك "..Namebot.. " كول حب ",
+"كول حبيبي ؟ اني "..Namebot,
+'ها حبي وياك مكتب ئلسيد .',
+'الو الو رد مخنوك',
+'ها يحلو كول',
+'عمري الحلو',
+'صاعد اتصال ويا الحب دقيقة وجيك 😘💘',
+'مشغول حالياً 🌚🌸',
+'لابسك لتلح',
+" هايروحي؟ "..Namebot,
 }
 name = math.random(#namebot)
 send(msg.chat_id_, msg.id_, namebot[name]) 
@@ -4716,24 +4718,12 @@ return false
 end
 
 if text == "بوت" then
-local namebot = {
-"اسمي القميل "..Namebot.." 🙂",
-"اسمي الوكح "..Namebot.." 😎",
-"اسمي الانيق "..Namebot.." ☺️",
-"اسمي الطيف "..Namebot.." 😉",
-"اسمي الورد "..Namebot.." 😗",
-"يمعود متقرة اسمي "..Namebot.." 😒",
-"تفضل شتريد. 🙁 ؟ "
-}
-name = math.random(#namebot)
-send(msg.chat_id_, msg.id_, namebot[name]) 
-return false 
+Namebot = (database:get(bot_id.."Tshake:Name:Bot") or "تشاكي")
+send(msg.chat_id_, msg.id_,"اسمي القميل ["..Namebot.."] ") 
 end
-
-
-if text == "تغير اسم البوت" or text == "ضع اسم للبوت" then 
-if Devdaboul(msg) then
-database:setex(bot_id.."daboul:Set:Name:Bot"..msg.sender_user_id_,300,true) 
+if text == "تغير اسم البوت" or text == "تغيير اسم البوت" then 
+if DevTshake(msg) then
+database:setex(bot_id.."Tshake:Set:Name:Bot"..msg.sender_user_id_,300,true) 
 send(msg.chat_id_, msg.id_,"📫┇ ارسل لي الاسم الان ")  
 end
 return false
