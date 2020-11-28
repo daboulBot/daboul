@@ -6185,16 +6185,16 @@ if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or tex
 Text = [[
 🔰 Welcome to Source 🔰
 
-🌐┇daboul TEAM 
+🌐┇Casper TEAM 
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-📊┇ [Source Channel](https://t.me/XMGXM)
+📊┇ [Source Channel](https://t.me/Cispar)
 
-📊┇ [Source Info](https://t.me/XMGXM)
+📊┇ [Source Info](https://t.me/Cispar)
 
-🌐┇ [daboul iNDT](https://t.me/XMGXM)
+🌐┇ [Casper iNDT](https://t.me/Cispar)
  
  ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ 
-📧┇ [TWS daboul](https://t.me/Ub55bot)
+📧┇ [TWS daboul](https://t.me/Y_8ibot)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 end
