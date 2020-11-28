@@ -10,7 +10,7 @@ chmod +x tk
 get() {
 rm -fr daboul.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/daboulBot/daboul/main/daboul.lua"
+wget "https://raw.githubusercontent.com/daboulBot/daboul/main/daboul/daboul.lua"
 lua run.lua
 }
 ins_sudo(){
