@@ -5154,14 +5154,14 @@ if text == 'تعطيل الايدي بالصوره' and Owner(msg) then
 database:set(bot_id..'daboul:Lock:ID:Bot:Photo'..msg.chat_id_,true) 
 send(msg.chat_id_, msg.id_,'☑┇تم تعطيل الايدي بالصوره') 
 end
-if text == 'تفعيل اليوتيوب' and Owner(msg) then   
+if text == 'تفعيل التنزيل' and Owner(msg) then   
 database:del(bot_id..'dw:bot:api'..msg.chat_id_) 
-Text = '\n تم تفعيل اليوتيوبات' 
+Text = '\n تم تفعيل التنزيلات' 
 send(msg.chat_id_, msg.id_,Text) 
 end
-if text == 'تعطيل اليوتيوب' and Owner(msg) then  
+if text == 'تعطيل التنزيل' and Owner(msg) then  
 database:set(bot_id..'dw:bot:api'..msg.chat_id_,true) 
-Text = '\nتم تعطيل اليوتيوبات' 
+Text = '\nتم تعطيل التنزيلات' 
 send(msg.chat_id_, msg.id_,Text) 
 end 
 if text and text:match('^(.*) !!$') and not database:get(bot_id..'dw:bot:api'..msg.chat_id_) then            
